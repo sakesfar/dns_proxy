@@ -1,10 +1,12 @@
 # DNX Proxy server
 Simple DNS proxy server that redirects dns queries to localhost and blocks unwantend domains
 
-1. mdkir -p ~/dns_proxy && cd ~/dns_proxy
-2. git clone https://github.com/sakesfar/dns_proxy 
-2. Ensure `/etc/resolv.conf` has this inside: `nameserver 127.0.0.1`
-3. Run command: `python3 dns_proxy.py`
+**Instructions to run the dns proxy server:**
+1.  `cd /path/to/your/projectsFile`
+2. `git clone https://github.com/sakesfar/dns_proxy `
+3. `cd dns_proxy`
+4. Ensure `/etc/resolv.conf` has this inside: `nameserver 127.0.0.1`
+5. `python3 dns_proxy.py`
 
 ## Concept behind
 Before a proper TCP/IP packet with payload data is generated, a DNS query is formed. DNS server is generally supplied by your IPS.
