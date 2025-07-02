@@ -1,0 +1,23 @@
+{
+  "upstream_dns": "8.8.8.8",
+  "blacklist": {
+    "www.youtube.com": {
+      "type": "refused"      
+    },
+    "www.google.com": {
+      "type": "refused"      
+    },
+    "www.somewebsite.net": {
+      "type": "not_found"
+    },
+    "www.vk.com" : {
+     "type" : "redirected_domain",
+     "ip": "157.240.199.35"
+    },
+    "vk.com" : {
+     "type" : "redirected_domain",
+     "ip": "157.240.199.35"
+    }    
+  }
+}
+
