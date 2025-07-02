@@ -1,2 +1,2 @@
 # dns_proxy
-Simple DNS proxy server that redireect dns queries to localhost and blocks unwatend domains
+Simple DNS proxy server that redirects dns queries to localhost and blocks unwantend domains
