@@ -5,7 +5,7 @@ Simple DNS proxy server that redirects dns queries to localhost and blocks unwan
 1.  `cd /path/to/your/projectsFile`
 2. `git clone https://github.com/sakesfar/dns_proxy `
 3. `cd dns_proxy`
-4. Ensure `/etc/resolv.conf` has this inside: `nameserver 127.0.0.1`
+4. `sudo sh -c 'echo "nameserver 127.0.0.1" > /etc/resolv.conf'`
 5. `python3 dns_proxy.py`
 
 ## Concept behind
